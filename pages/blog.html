@@ -1,0 +1,35 @@
+<script type="text/javascript" src="{JQUERY}"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var $css_file_append = 'sp_3.css';
+
+	jQuery.noConflict();
+	jQuery(document).ready(function(){
+		jQuery('<link rel="stylesheet" href="{STYLES}/' + $css_file_append + '" type="text/css" />').appendTo('head');
+	});
+
+//]]>
+</script>
+
+<div id="container" style="min-height:400px">
+	<h1>Put your blog here...</h1>
+
+	<div id="body">
+		<p>This is an example of a blog page.</p>
+		<code>
+
+			<div id="container" style="min-height:400px">
+				<h1>My Simple Portal Blog...</h1>
+
+				<div id="body">
+					<p>This page will br replaced with the SimpleBlog &copy; MySimplePortal Group 2011...</p>
+				</div>
+				<p class="footer">Page rendered in <strong>0.0009</strong> seconds</p>
+			</div>
+
+		</code>
+	</div>
+	<p class="footer">Page rendered in <strong>0.0009</strong> seconds</p>
+</div>

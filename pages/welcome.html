@@ -1,0 +1,27 @@
+<script type="text/javascript" src="{JQUERY}"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var $css_file_append = 'sp_2.css';
+
+	jQuery.noConflict();
+	jQuery(document).ready(function(){
+		jQuery('<link rel="stylesheet" href="{STYLES}/' + $css_file_append + '" type="text/css" />').appendTo('head');
+	});
+
+//]]>
+</script>
+
+<strong>Some text here to represent the body file</strong><br />
+<div id="container">
+	<h1>Welcome</h1>
+
+	<div id="body">
+		<p>This is an example welcome page.</p>
+		<code>blah... blah... blah...</code>
+	</div>
+
+	<p class="footer">Page rendered in <strong>0.0009</strong> seconds</p>
+
+</div>

@@ -1,0 +1,299 @@
+* {
+	/* defaults */
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+	height: 101%;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #4F5155;
+	font: 12px/20px normal Helvetica, Arial, sans-serif;
+
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+
+	margin: 0;
+	padding: 20px 0;
+}
+
+h1 {font-size: 16px;}
+p {padding:3px;}
+
+
+.page {
+	width: 92%;
+	margin: 0 auto auto;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+.wrapper {
+border-radius: 5px;
+border: solid 1px #BABABA;
+background: #F8F8F8 none repeat-x 0 0;
+margin-bottom: 4px;
+padding: 5px;
+clear: both;
+box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}
+.editing {background: #FFCFCF none repeat-x 0 0;}
+
+
+a:link	{ color: #898989; text-decoration: none; }
+a:visited	{ color: #898989; text-decoration: none; }
+a:hover	{ color: #819556; text-decoration: underline; }
+a:active	{ color: #898989; text-decoration: none; }
+
+.comimg {
+margin-right: 5px;
+}
+
+.ablock {
+	width: 170px;
+	min-height: 60px;
+	float: left;
+	margin-bottom: 8px;
+	text-align:center;
+}
+
+.body_wrapper {
+	float:left;
+}
+
+.header_wrapper{
+	width: auto;
+	margin: 0 auto auto;
+	min-height: 60px;
+	margin-bottom: 15px;
+	clear: both;
+}
+.header_wrapper img {
+	padding: 5px;
+}
+.footer_wrapper, .footer_wrapper a {
+	/*width: 100%;*/
+	margin: 0 auto auto;
+	margin-top: 5px;
+	font-weight: bold;
+	color: #101010;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 1em;
+}
+
+.contents {
+	/*width:100%;*/
+	padding-left:5px;
+	text-align: left;
+	min-height:200px;
+}
+
+.menu, .menu a {
+	color: #101010;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+/*	width:auto;*/
+	text-align: left;
+	margin-bottom: 10px;
+    cursor: pointer;
+}
+.menu img { padding-top: 1px;}
+
+/* blocks
+------------------------- */
+
+.block_title {
+ color: #FFFFFF;
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: 1em;
+ font-weight: bold;
+ text-transform: none;
+ line-height: 1.5em;
+ padding: 2px;
+ margin: 4px 4px 2px;
+}
+
+.block_header {
+ clear:left;
+ width:auto;
+}
+
+.block_data {
+ padding:0px;
+}
+
+.box {
+ background: #ECF3F7 none repeat-x 0 0;
+ background-repeat: repeat;
+ text-align:left;
+ margin-top:5px;
+ padding: 2px 2px 2px 2px;
+ overflow: hidden;
+ width: auto;
+ clear: both;
+ border: solid 1px #E5EDF3;
+}
+
+/* portal background colours
+----------------------------- */
+
+.bg1a {
+ background-color: #D3E1EB;
+ padding:5px;
+ border: solid 1px #84AAC8;
+}
+.bg2a {
+ background-color: #C8D9E6;
+ padding:5px;
+ border: solid 1px #ABC5D9;
+}
+.bg3a {
+ background-color: #C2D5E4;
+ padding:5px;
+ border: solid 1px #ABC5D9;
+}
+
+/* portal colours (redefine to suite style)
+------------------------------------------- */
+.list_new_pre_beata {
+color: red;
+font-weight: bold;
+font-size:10px;
+}
+.list_pre_beat {
+color: gray;
+font-weight: bold;
+font-size:10px;
+}
+.list_beta {
+color: orange;
+font-weight: bold;
+font-size:10px;
+} 
+.list_pre_release {
+color: blue;
+font-weight: bold;
+font-size:10px;
+} 
+.list_release {
+color: green;
+font-weight: bold;
+font-size:10px;
+padding:2px;
+}
+.orange {
+color: #D29D00;
+font-weight: bold;
+}
+.green {
+color:#008000;
+font-weight: bold;
+}
+.red {
+color:#FF0000;
+font-weight: bold;
+}
+
+.gray {
+color:#BABABA;
+font-weight: bold;
+}
+.blue {
+color:#18609C;
+font-weight: bold;
+}
+.date {
+color:#027AB6;
+font-weight: bold;
+}
+
+
+.titlelink > a:link, .titlelink > a:visited, .titlelink > a:hover, .titlelink > a:active {
+    color: #D1E3FD;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* New layout, no tables
+ ------------------------------- */
+
+#p_header_, #p_footer_ {
+    display: block;
+    width: 100%;
+    margin: auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#p_container_ {
+  width: 100%;
+  margin: auto;
+  padding:0;
+  display: table;
+}
+
+#p_row_  {
+    display: table-row;
+}
+
+#left, #right, #center  {
+	display: table-cell;
+	vertical-align:top;
+}
+
+
+.tcontainer {
+	width: 100%;
+	margin: 0 auto;
+	padding:0;
+	display: table;
+}
+.trow {
+	display: table-row;
+}
+.tleft  {
+	display: table-cell;
+	vertical-align:top;
+	text-align:left;
+}
+.tcenter  {
+	display: table-cell;
+	vertical-align:top;
+	text-align:center;
+}
+.tright  {
+	display: table-cell;
+	vertical-align:top;
+	text-align: right;
+}
+
+
+/*li {padding-left: 20px;}*/
+
+
+
+textarea
+{
+    width:100%;
+}
+
+
+li {
+	margin: 0 0 0 1.5em;
+}
