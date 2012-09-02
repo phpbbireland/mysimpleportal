@@ -1,5 +1,5 @@
 mysimpleportal
-==============
+--------------
 
 A simple portal to provide a web presence without requiring any coding skills
 The back-end is a combination of code from phpBB3 and code from Kiss...
