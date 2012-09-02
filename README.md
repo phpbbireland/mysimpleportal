@@ -2,7 +2,9 @@ MySimplePortal
 --------------
 
 A simple portal to provide a web presence without requiring any coding skills.
+
 The back-end is a combination of code from phpBB3 and code from Kiss.
+
 This is used for general control but there's no forum and no database.
 
 * You can have as many pages are you wish and all are editable by clicking the "Edit" on that page (so far I only edit one page, but it could be all pages)...
