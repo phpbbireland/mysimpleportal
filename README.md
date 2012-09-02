@@ -13,8 +13,8 @@ This is used for general control but there's no forum and no database.
 
 In a nut shell, **MySimplePortal** allows anyone to have a web presence and gives them the ability to edit their pages (in real time) with little or no php, mysql or even html skills  
 
-The development team will provide all the necessary extras on request (allowing for work load)...
+The development team will provide additional features and user requested features based on popularity and taking into account the current work load.
 
 **Edits methods:**
 
-You can edit the page manually by clicking on the "Edit icon" or using a wysiwyg edit to create a page and then paste the code into the edit window... I am probably going to add one of the opensource wysiwyg editors to provide much more control and make it easier to create and edit pages...
+You can edit the page manually by clicking on the "Edit icon" or using a WYSIWYG edit to create a page and then paste the code into the edit window... I am probably going to add one of the open source WYSIWYG editors to provide much more control and make it easier to create and edit pages...
