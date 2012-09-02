@@ -17,3 +17,6 @@ The development team will provide additional features and user requested feature
 
 **Editing pages:**  
 You can edit the page manually by clicking on the "Edit icon" or using a WYSIWYG edit to create a page and then paste the code into the edit window... I am probably going to add one of the open source WYSIWYG editors to provide much more control and make it easier to create and edit pages...
+
+Once we have determined the rest of the structure we will start on the SimpleBlog...  
+Mike
