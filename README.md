@@ -11,7 +11,7 @@ This is used for general control but there's no forum and no database.
 * To get up and running takes about 60 seconds...
 * No actual learning curve, only takes a few minutes to master...
 
-In a nut shell, **MySimplePortal** allows anyone to have a web presence and gives them the ability to edit their pages in real time without with little or no php, mysql or even html skills
+In a nut shell, **MySimplePortal** allows anyone to have a web presence and gives them the ability to edit their pages (in real time) with little or no php, mysql or even html skills
 
 **Edits methods:**
 
