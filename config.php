@@ -7,6 +7,6 @@
 @define('SP', true);
 
 $user = 'Admin';
-$pass = 'change2day';
+$pass = 'anypassword';
 
 ?>
