@@ -1,5 +1,7 @@
 MySimplePortal
 --------------
+**Security Update**
+Plese update all jquery code to > 3.5.0
 
 A simple portal to provide a web presence without requiring any coding skills.   
 The back-end is a combination of code from phpBB3 and the Kiss Portal Engine.  
